@@ -4,7 +4,8 @@ const SignUpPage = () => {
     return (
         <main className='w-full h-screen flex-center'>
             <SignUp 
-                afterSignUpUrl={"/personal-room/"}
+                afterSignUpUrl={"/"}
+                afterSignInUrl={"/"}
             />
         </main>
     );

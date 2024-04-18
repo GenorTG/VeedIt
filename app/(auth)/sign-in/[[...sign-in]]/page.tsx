@@ -5,6 +5,7 @@ const SignInPage = () => {
         <main className='w-full h-screen flex-center'>
             <SignIn 
                 afterSignInUrl={"/"}
+                afterSignUpUrl={"/"}
             />
         </main>
     );
