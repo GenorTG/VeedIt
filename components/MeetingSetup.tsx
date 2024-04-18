@@ -4,7 +4,8 @@ import { DeviceSettings, VideoPreview, useCall } from "@stream-io/video-react-sd
 import { useEffect, useState } from "react";
 import { Button } from "./ui/button";
 
-const MeetingSetup = ({ setIsSetupComplete }: { setIsSetupComplete: (v: boolean) => void }) => {
+// eslint-disable-next-line no-unused-vars
+const MeetingSetup = ({ setIsSetupComplete }: { setIsSetupComplete: (val: boolean) => void }) => {
     const [isMicCamToggledOn, setIsMicCamToggledOn] = useState(false);
     const call = useCall();
 

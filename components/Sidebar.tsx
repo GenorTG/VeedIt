@@ -1,10 +1,10 @@
-'use client';
+"use client";
 
-import { sidebarLinks } from '@/constants';
-import { cn } from '@/lib/utils';
-import Image from 'next/image';
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { sidebarLinks } from "@/constants";
+import { cn } from "@/lib/utils";
+import Image from "next/image";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const Sidebar = () => {
     const pathName = usePathname();
@@ -16,8 +16,8 @@ const Sidebar = () => {
                     const isActive = pathName === link.route || pathName.startsWith(`${link.route}/`);
 
                     return (
-                        <Link href={link.route} key={link.label} className={cn('flex gap-4 items-center p-4 rounded-lg justify-start', {
-                            'bg-blue-1' : isActive,
+                        <Link href={link.route} key={link.label} className={cn("flex gap-4 items-center p-4 rounded-lg justify-start", {
+                            "bg-blue-1" : isActive,
                         })}
                         >
                             <Image 
