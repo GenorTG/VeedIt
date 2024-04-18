@@ -3,7 +3,9 @@ import { SignUp } from "@clerk/nextjs";
 const SignUpPage = () => {
     return (
         <main className='w-full h-screen flex-center'>
-            <SignUp />
+            <SignUp 
+                afterSignUpUrl={"/personal-room/"}
+            />
         </main>
     );
 };
