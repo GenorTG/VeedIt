@@ -1,0 +1,1 @@
+# This is a clone of "zoom", a video conferencing app that allows you to create video meetings, record them, send invitation links, all the basic functionalities.
