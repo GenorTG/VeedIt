@@ -6,6 +6,7 @@ const SignUpPage = () => {
             <SignUp 
                 afterSignUpUrl={"/"}
                 afterSignInUrl={"/"}
+                redirectUrl={"/"}
             />
         </main>
     );
